@@ -20,4 +20,4 @@ Runtime behavior of docker-doradus-logstash can be modified by passing the below
 ## How to use this image
 
 To start a basic container, execute the below command:
-`docker run --link redis:redis --env DORADUS_HOST=<Doradus_Host_Name> --env DORADUS_PORT=<Doradus_Port> --env DOCKER_APP_NAME=<Docker_App_Name> --env DOCKER_NAMESPACE=<Docker_Namespace> --env DOCKER_DORADUS_USER=<Doradus_User> --env DOCKER_DORADUS_PWD=<Dradus_Password> --name <container-name> -i -t pmattoo/docker-redis-logstash`
+`docker run --link redis:redis --env DORADUS_HOST=<Doradus_Host_Name> --env DORADUS_PORT=<Doradus_Port> --env DOCKER_APP_NAME=<Docker_App_Name> --env DOCKER_NAMESPACE=<Docker_Namespace> --env DOCKER_DORADUS_USER=<Doradus_User> --env DOCKER_DORADUS_PWD=<Doradus_Password> --name <container-name> -i -t pmattoo/docker-redis-logstash`
